@@ -1,0 +1,95 @@
+article.tweet {
+
+    display: flex;
+    flex-direction: column;
+    border: 5px solid;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Hover changes
+    1. handle becomes visible
+    2. a box shadoe is created
+    3. color goes from gray to black in footer and header
+*/
+article.tweet:hover header span {
+    display: flex;
+}
+article.tweet:hover header {
+    color: black;
+}
+article.tweet:hover footer {
+    color: black;
+}
+article.tweet:hover footer div {
+    color: rgb(10, 30, 139)
+}
+article.tweet:hover {
+    -webkit-box-shadow: 8px 8px 0px 0px rgba(197,203,227,1);
+    -moz-box-shadow: 8px 8px 0px 0px rgba(197,203,227,1);
+    box-shadow: 8px 8px 0px 0px rgba(197,203,227,1);
+}
+
+
+
+/* Tweet header CSS */
+article.tweet header {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 90%;
+  color: rgb(126, 126, 126);
+}
+
+article.tweet header div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 70%;
+}
+
+article.tweet header div img {
+    height: 50px;
+    width: auto;
+}
+
+/* CSS for the handle on the header */
+article.tweet header span {
+    display: none;
+    padding-top: 35px;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CSS for the tweet */
+article.tweet div {
+    word-wrap: break-word;
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width: 90%;
+    color: black;
+}
+
+/* tweet footer CSS */
+article.tweet footer {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-top: 5px black solid;
+    width: 90%;
+    color: rgb(126, 126, 126);
+}
+article.tweet footer div {
+    color: rgb(85, 95, 151);
+    width: 30%;
+}  
+
+
