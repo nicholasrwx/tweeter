@@ -6,7 +6,7 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Screenshots
 
-!["Login Page"]()
+!["Login Page"](https://github.com/nicholasrwx/tweeter/blob/master/docs/Error1.png)
 
 
 
